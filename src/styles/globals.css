@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+body{
+  background-color: black;
+  color: white;
+} */
+.main{
+  background-color: rgb(12, 12, 12);
+  height: 100vh;
+}
+
+.Home{ 
+  color: white;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.Add-User{
+ width: 20%;
+  padding: 20px;
+}
+.Add-User h1{
+  text-shadow: 5px 5px 5px rgb(150, 147, 147);
+}
+.display-user{
+ width: 20%;
+  padding: 20px;
+
+}
+.Add-User button{
+  padding: 5px 40px;
+ background-color: black;
+ color: white;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px rgb(44, 43, 43);
+}
+
+.Add-User input{
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  color: black;
+}
+
+.display-user button{
+  margin-left:70%;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgb(44, 43, 43);}
+.dis-text{
+  display: flex;
+}
